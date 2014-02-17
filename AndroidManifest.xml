@@ -24,7 +24,7 @@
         android:name="com.aosb.updater.UpdateApplication"
         android:supportsRtl="true">
 
-        <service android:name="com.aosb.updater.service.CMDashClockExtension"
+        <service android:name="com.aosb.updater.service.AOSBDashClockExtension"
             android:icon="@drawable/ic_extension_cid"
             android:label="@string/extension_label"
             android:permission="com.google.android.apps.dashclock.permission.READ_EXTENSION_DATA">
@@ -61,7 +61,7 @@
         <receiver android:name="com.aosb.updater.receiver.DownloadReceiver">
             <intent-filter>
                 <action android:name="android.intent.action.DOWNLOAD_COMPLETE"/>
-                <action android:name="com.aosb.cmupdater.action.START_DOWNLOAD"/>
+                <action android:name="com.aosb.aosbupdater.action.START_DOWNLOAD"/>
             </intent-filter>
         </receiver>
 
