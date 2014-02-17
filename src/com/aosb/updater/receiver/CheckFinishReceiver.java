@@ -13,7 +13,7 @@ import android.content.BroadcastReceiver;
 import android.content.Context;
 import android.content.Intent;
 
-import com.aosb.updater.service.CMDashClockExtension;
+import com.aosb.updater.service.AOSBDashClockExtension;
 
 public class CheckFinishReceiver extends BroadcastReceiver {
     @Override
